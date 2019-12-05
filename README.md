@@ -32,6 +32,8 @@
         - config files := Dockerfile, .yml, .json, .ini, .csv, etc.. are stored here
     - vsh/
         - global script directory
+            - shell
+            - v
     - Makefile
     - README.md
 
