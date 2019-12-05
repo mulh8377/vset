@@ -1,5 +1,11 @@
 # vset -- simple tool for setting up consistent projects for V
 
+## Design Requirements
+    - extendable and consistent
+    - fast stage build/compile/run performance
+    - fast stage build/compile/run logging
+    - automate stage build/compile/run documentation
+
 ## useful build commands
     - make
         - build **working**
@@ -29,8 +35,3 @@
     - Makefile
     - README.md
 
-## Design Requirements
-    - extendable and consistent
-    - fast stage build/compile/run performance
-    - fast stage build/compile/run logging
-    - automate stage build/compile/run documentation
