@@ -11,11 +11,11 @@
         - kill **working**
             * resets the project back to its basic form
 
-## vset structure
+## automated project structure
     - bin/
         - temporary storage for executables and backups
-        - backups are generated after build stage
-        - executables are generated after compiling the backups
+        - backups are generated from build stage
+        - executables are generated after compiling bin/backups/
     - doc/
         - temporary storage for storing .md & .txt generated modules and tests
         - docs are generated after build stage
@@ -23,7 +23,14 @@
         - temporary storage for logging output from building, running, and cleaning
     - src/
         - modules and tests are developed here
+        - config files := Dockerfile, .yml, .json, .ini, .csv, etc.. are stored here
     - vsh/
-        - script directory
+        - global script directory
     - Makefile
     - README.md
+
+## Design Requirements
+    - extendable and consistent
+    - fast stage build/compile/run performance
+    - fast stage build/compile/run logging
+    - automate stage build/compile/run documentation
