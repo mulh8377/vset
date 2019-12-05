@@ -2,8 +2,8 @@
 
 ## Design Requirements
     - extendable and consistent
-    - fast stage build/compile/run performance
-    - fast stage build/compile/run logging
+    - high stage build/compile/run performance
+    - consistent stage build/compile/run logging
     - automate stage build/compile/run documentation
 
 ## useful build commands
