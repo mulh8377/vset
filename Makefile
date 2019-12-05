@@ -11,27 +11,27 @@ run:
 clean:
 	make v-log
 	make v-cln
-# log output from clean first, remove entire project after (remove everything besides vsh/ and Makefile)
+# log output from clean first, remove entire project after (remove everything besides vsh/shell/ and Makefile)
 kill:
 	make v-log
 	make v-kill
 v-gen:
-	bash vsh/vcreate.sh
+	bash vsh/shell/vcreate.sh
 
 v-comp:
-	bash vsh/vcompile.sh
+	bash vsh/shell/vcompile.sh
 
 v-cln:
-	bash vsh/vclean.sh
+	bash vsh/shell/vclean.sh
 
 v-run:
-	bash vsh/vrun.sh
+	bash vsh/shell/vrun.sh
 
 v-log:
-	bash vsh/vlogger.sh
+	bash vsh/shell/vlogger.sh
 
 v-snap:
-	bash vsh/vbackup.sh
+	bash vsh/shell/vbackup.sh
 
 v-kill:
-	bash vsh/vthanos.sh
+	bash vsh/shell/vthanos.sh
