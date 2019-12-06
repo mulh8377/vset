@@ -1,20 +1,11 @@
 # generate the project, compile the project, backup the project
-build:
-	make v-gen
-	make v-comp
-	make v-snap
+build: v-gen v-comp v-snap
 # log output from build first, run the project after
-run:
-	make v-log
-	make v-run
+run: v-log v-run
 # log output from run first, clean the project after (remove all temporary files)
-clean:
-	make v-log
-	make v-cln
+clean: v-log v-cln
 # log output from clean first, remove entire project after (remove everything besides vsh/shell/ and Makefile)
-kill:
-	make v-log
-	make v-kill
+kill: v-log v-kill
 v-gen:
 	bash vsh/shell/vcreate.sh
 
