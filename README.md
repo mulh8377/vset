@@ -7,11 +7,17 @@
     - automate stage build/compile/run documentation
 
 ## useful build commands
+## useful build commands
     - make
         - build **working**
             * makes a consistent directory layout, stores a copy/backup src in bin/backup/
-        - run **in-progress**
-            * compiles bin/backup/src-snap, runs the binary-file, logs output 
+            * deletes original .git repo and initializes a new one
+        - compile **modify!**
+            * compiles v files in src/main
+        - git-pull **working**
+            * pulls v files from master branch
+        - git-push **working**
+            * pushes v files in src/main
         - clean **working**
             * cleans temporary files from bin/ and log/
         - kill **working**
