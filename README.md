@@ -7,7 +7,6 @@
     - automate stage build/compile/run documentation
 
 ## useful build commands
-## useful build commands
     - make
         - build **working**
             * makes a consistent directory layout, stores a copy/backup src in bin/backup/
@@ -25,14 +24,15 @@
 
 ## automated project structure
     - bin/
-        - temporary storage for executables and backups
-        - backups are generated from build stage
-        - executables are generated after compiling bin/backups/
+        - /backups/ temporary storage for a src backups
+        - /temp/ temporary files stored here
+        - /exec/
+        - /sh/
     - doc/
         - temporary storage for storing .md & .txt generated modules and tests
-        - docs are generated after build stage
     - log/
-        - temporary storage for logging output from building, running, and cleaning
+        - /temp/ temporary storage for logging output from building, running, and cleaning
+        - /date/ permanent storage for logs from a specific date
     - src/
         - modules and tests are developed here
         - config files := Dockerfile, .yml, .json, .ini, .csv, etc.. are stored here
