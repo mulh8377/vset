@@ -26,20 +26,18 @@
     - bin/
         - /backups/ temporary storage for a src backups
         - /temp/ temporary files stored here
-        - /exec/
-        - /sh/
+        - /exec/ copies of executable binary files
+        - /sh/ copies only safe and batch from vsh/shell/
     - doc/
         - temporary storage for storing .md & .txt generated modules and tests
     - log/
         - /temp/ temporary storage for logging output from building, running, and cleaning
         - /date/ permanent storage for logs from a specific date
     - src/
-        - modules and tests are developed here
-        - config files := Dockerfile, .yml, .json, .ini, .csv, etc.. are stored here
+        - modules and tests and config files := Dockerfile, .yml, .json, .ini, .csv, etc.. are stored here
     - vsh/
         - global script directory
             - shell
-            - v
     - Makefile
     - README.md
 
