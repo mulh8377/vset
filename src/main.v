@@ -1,0 +1,2 @@
+module main
+fn main () {}
