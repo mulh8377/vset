@@ -8,32 +8,43 @@
 
 ## useful build commands
     - make
+
         - build **working**
             * makes a consistent directory layout, stores a copy/backup src in bin/backup/
             * deletes original .git repo and initializes a new one
+
         - compile **modify!**
             * compiles v files in src/main
+
 	- backup **working**
 	    * backs up src/ and data/ and docs/ to bin/
+
 	- git-init **in-progress**
 	    * sets up .git directory inside of project and removes old one.
+
         - git-pull **working**
             * pulls v files from master branch
+
         - git-push **working**
             * pushes v files in src/main
+
         - clean **working**
             * cleans temporary files from bin/ and log/
+
         - kill **working**
             * resets the project back to its basic form
+
 	- create-doc **working**
 	    * creates template for .md files and stores it inside doc/todo/
+
 	- save-doc **working**
 	    * saves a backup of doc/todo/ files inside of log/temp/doc and doc/
 	- create-template **working**
 	    * creates template for .v files and stores it inside src/
 	- clean-template **working**
 	    * delete the template after you have renamed and modified the temp.v file
-	- data-clean **working**
+
+ 	- data-clean **working**
 	    * deletes all data stored in the directory.
 	 - vb-mc **in-progress**
 	    * a batch move and compile command. still needs some modifications
@@ -56,8 +67,7 @@
     - src/
         - modules and tests and code and executables are developed here.
     - vsh/
-        - global script directory
-            - shell/
+	 - shell/
 		- vbatch/ shell scripts that enable batch moving and compiling of the src/ directory. 
 		- vdang/ **CAREFUL** shell scripts that clean, destroy, or create a new project.
 		- vgit/  shell scripts that can automate your interaction with github
